@@ -5,6 +5,7 @@
 
 # testing
 /coverage
+/some_files_schema_and_dbs
 
 # production
 /build
