@@ -741,7 +741,7 @@ class Fireadmin extends Component {
           <div className="container-fluid">
 
           {/* ACtIONS */}
-          {(<div className="col-md-12">
+          {(<div hidden="true" className="col-md-12">
             <div className="card">
               <form className="form-horizontal">
                 <div className="col-md-12">

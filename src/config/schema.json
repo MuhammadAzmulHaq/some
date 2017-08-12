@@ -1,8 +1,8 @@
 {
 	"rooms" : {
       "items" : {
-		  "-event12341" : {
-			  "image":"http://www.gulfsiamhotel.com/images/collage/col8.jpg",
+		  "-room1502508593589" : {
+			  "image":"http://www.channel-view.co.uk/wp-content/uploads/sites/43/2013/11/dummy-image-landscape-1024x800.jpg",
 			  "room_number":"Not Set",
 			  "floor_number":"Not Set",
 			  "anemity" : "",
@@ -10,11 +10,92 @@
 			  "room_bed" : "UnSelected",
 			  "room_category" : "UnSelected",
 			  "room_persons" : "0",
-			  "price" : 0,
-			  "room_status" : "unpublished"
+			  "price_in_Rps" : 0,
+			  "pub_status" : "unpublished"
 		  }
 	  }
     },
+	
+	
+	
+	
+	
+	"halls" : {
+      "items" : {
+		  "-hall1111" : {
+			  "image":"http://www.channel-view.co.uk/wp-content/uploads/sites/43/2013/11/dummy-image-landscape-1024x800.jpg",
+			  "hall_number":"Not Set",
+			  "anemity" : "",
+			  "area" : "Not Set",
+			  "seatings" : 0,
+			  "price_in_Rps" : 0,
+			  "pub_status" : "unpublished"
+		  }
+	  }
+    },
+	
+	
+	
+	
+	"events" : {
+      "items" : {
+		  "-event1111" : {
+			  "image":"http://www.channel-view.co.uk/wp-content/uploads/sites/43/2013/11/dummy-image-landscape-1024x800.jpg",
+			  "event_number":"Not Set",
+			  "event_Date_Time": "01/01/2000 00:00 PM",
+			  "seatings" : 0,
+			  "event_entry_in_Rps" : 0,
+			  "pub_status" : "unpublished",
+			  "event_Detail" : ""
+		  }
+	  }
+    },
+	
+	
+	
+	
+	
+	
+	"services" : {
+      "items" : {
+		  "-item1111" : {
+			  "name":"Not Set",
+			  "cost_in_Rps" : 0,
+			  "pub_status" : "unpublished",
+			  "content" : ""
+		  }
+	  }
+    },
+	
+	
+	
+	
+	"fooditems" : {
+      "items" : {
+		  "-item1111" : {
+			  "image":"http://www.channel-view.co.uk/wp-content/uploads/sites/43/2013/11/dummy-image-landscape-1024x800.jpg",
+			  "name":"Not Set",
+			  "cost_in_Rps" : 0,
+			  "pub_status" : "unpublished",
+			  "content" : ""
+		  }
+	  }
+    },
+	
+	
+	
+	
+	"employees" : {
+      "items" : {
+		  "-emp1111" : {
+			  "image":"http://www.channel-view.co.uk/wp-content/uploads/sites/43/2013/11/dummy-image-landscape-1024x800.jpg",
+			  "name":"Not Set",
+			  "emp_post" : "UnSelected",
+			  "content" : ""
+		  }
+	  }
+    },
+	
 	
 	
 	

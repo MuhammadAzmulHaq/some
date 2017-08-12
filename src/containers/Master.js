@@ -95,7 +95,7 @@ class Master extends Component {
             <div className="user">
               <div className="photo">
 
-                  <img src={this.state.user.photoURL?this.state.user.photoURL:'http://www.gravatar.com/avatar/' + md5(this.state.user.email+"")+"?s=512"} />
+                  <img src='http://cdn2.hubspot.net/hub/189007/file-526634248-png/google-apps-admin-panel-icon.png' />
               </div>
               <div className="info">
                 <a data-toggle="collapse" href="#collapseExample" className="collapsed">{this.state.user.email}<b className="caret"></b></a>

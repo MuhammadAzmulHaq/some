@@ -4,7 +4,8 @@ class App extends Component {
   render() {
     return (
       <div >
-        Dashboard
+        <h2>Welcome to the Dash board</h2>
+		<h3>Please Dont fuck things up</h3>
       </div>
     )
   }
