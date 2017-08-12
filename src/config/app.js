@@ -1,12 +1,12 @@
 
 //FireBase
 exports.firebaseConfig = {
-	apiKey: "AIzaSyDEGSHmQ7m1TyIzuZtjXK3k1ClHO5fTWkg",
-    authDomain: "togotap.firebaseapp.com",
-    databaseURL: "https://togotap.firebaseio.com",
-    projectId: "togotap",
-    storageBucket: "togotap.appspot.com",
-    messagingSenderId: "430104805788"
+	apiKey: "AIzaSyA317ZRudtMjB9zqfkLmahwo6OeAIML-dM",
+    authDomain: "taptogo-61889.firebaseapp.com",
+    databaseURL: "https://taptogo-61889.firebaseio.com",
+    projectId: "taptogo-61889",
+    storageBucket: "taptogo-61889.appspot.com",
+    messagingSenderId: "953283629516"
 };
 
 
@@ -25,11 +25,11 @@ exports.adminConfig={
   "allowedUsers":["admin@admin.com"], //If null, allow all users, else it should be array of allowd users
   "fieldBoxName": "Fields",
   "maxNumberOfTableHeaders":5,
-  "prefixForJoin":["-event","-room","-hall","-item","-emp"],
-  "methodOfInsertingNewObjects":"timestamp", //timestamp (key+time) | push - use firebase keys
+  "prefixForJoin":["-event","-room","-hall","-item","-emp","-"],
+  "methodOfInsertingNewObjects":"timestamp", //timestamp "("key+time) | push - use firebase keys
   "urlSeparator":"+",
 
-
+	
   "fieldsTypes":{
     "photo":["photo","image"],
     "dateTime":["datetime","start","event_Date_Time"],
@@ -40,7 +40,7 @@ exports.adminConfig={
     "html":["content","event_Detail"],
     "radio":["radio","pub_status"],
     "checkbox":["checkbox","anemity"],
-    "dropdowns":["status","dropdowns","room_area","room_category","room_persons","room_bed","emp_post"],
+    "dropdowns":["status","dropdowns","room_area","room_category","room_persons","room_bed","emp_post","order_status"],
   },
   "optionsForSelect":[
       {"key":"dropdowns","options":["new","processing","rejected","completed"]},
@@ -52,6 +52,7 @@ exports.adminConfig={
 	  {"key":"room_area","options":["UnSelected","224x2224ft","334x334ft","500x500ft"]},
 	  {"key":"room_category","options":["UnSelected","Deluxe Room","Luxury Room","VIP Room","Family Room"]},
 	  {"key":"emp_post","options":["UnSelected","Manager","Worker","Cook","Chef","Engineer","IT"]},
+	  {"key":"order_status","options":["Pending","Ready","Served"]},
 	  {"key":"room_bed","options":["UnSelected","1 Single size bed","2 Single size bed","1 Double size bed","1 Double size bed and 1 Single size bed","2 Double size bed","5 Single size bed"]}
   ],
 
@@ -74,17 +75,17 @@ exports.navigation=[
     },
 	{
 		  "link": "fireadmin",
-		  "path": "rooms/items",
-		  "name": "Rooms",
-		  "icon":"room",
-		  "tableFields":["image","room_number","floor_number","pub_status","price_in_Rps"],
+		  "path": "reservations",
+		  "name": "Reservations",
+		  "icon":"featured_play_list",
+		  "tableFields":["rID","bill"],
 	},
 	{
 		  "link": "fireadmin",
-		  "path": "halls/items",
-		  "name": "Halls",
+		  "path": "orders/items",
+		  "name": "Orders",
 		  "icon":"featured_play_list",
-		  "tableFields":["image","hall_number","pub_status","price_in_Rps"],
+		  "tableFields":["datetime","order_status","total"],
 	},
 	{
 		  "link": "fireadmin",
